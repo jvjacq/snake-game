@@ -45,3 +45,14 @@ The game features a simple graphical interface with:
 
 Here are some screenshots of the game in action:
 
+- The snake after spawning.
+![game-start](screenshots/1-game-start.jpeg)
+
+- The snake eating food.
+![eating-food](screenshots/2-eating-food.jpeg)
+
+- The snake colliding with the boundary.
+![boundary-collision](screenshots/3-boundary-collision.jpeg)
+
+- The game over screen.
+![game-over](screenshots/4-game-over.jpeg)
