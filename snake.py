@@ -23,7 +23,7 @@ class Direction(Enum):
     LEFT = 3
     RIGHT = 4
 
-class SnakeGame:
+class Snake:
     def __init__(self, w=500, h=500):
         self.w = w
         self.h = h
@@ -162,5 +162,5 @@ class SnakeGame:
                         quit()
                                     
 if __name__ == '__main__':
-    game = SnakeGame()
+    game = Snake()
     game.loop()
