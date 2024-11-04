@@ -26,20 +26,10 @@ The project consists of a single Python file that utilizes:
 - **Enum**: To manage directions.
 - **Namedtuples**: For easy representation of points on the screen.
 
-### Key Classes and Methods
+## Requirements
 
-- **SnakeGame**: The main class that handles game initialization, gameplay logic, and rendering.
-  - **play_step()**: Processes user input, updates the snake's position, checks for collisions, and updates the score.
-  - **_place_food()**: Randomly places food on the board.
-  - **_is_collision()**: Checks for collisions with walls or the snake's body.
-  - **game_over_screen()**: Displays the game over screen with the final score.
-
-## Visuals
-
-The game features a simple graphical interface with:
-- A black background.
-- Green blocks representing the snake.
-- Red blocks representing the food.
+- Python 3.7
+- Pygame
 
 ## Screenshots
 
